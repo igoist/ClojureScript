@@ -1,0 +1,35 @@
+*.class
+*.jar
+/.lein-*
+/.nrepl-port
+/.repl
+/checkouts/
+/classes/
+/lib/
+/log/
+/out/
+/resources/public/js/compiled/**
+/target/
+figwheel_server.log
+pom.xml
+pom.xml.asc
+
+
+# custom part
+*.el
+*.css
+*.map
+.sass-cache/
+img/
+
+
+# custom tmp
+resources/log4j.properties
+LICENSE
+dev/
+src/clj/
+src/cljc/
+src/cljs/instgram_rum/components/
+src/cljs/instgram_rum/system.cljs
+system.properties
+test/
